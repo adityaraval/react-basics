@@ -34,6 +34,7 @@ export class Home extends React.Component{
 
 Home.PropTypes = {
     name : React.PropTypes.string,
-    initialAge : React.PropTypes.number
+    initialAge : React.PropTypes.number,
+    greet: React.PropTypes.func
 };
 
